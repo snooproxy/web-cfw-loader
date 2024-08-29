@@ -35,6 +35,9 @@ function setPageLanguage(lang) {
   else if (lang === "du-NL")
     langObj = duNL;
 
+  else if (lang === "he-IL")
+    langObj = heIL;
+
   else
     langObj = enUS;
 
